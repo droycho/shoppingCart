@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyCp71LRXHRNxxxiYK6fZMCLzNYErxQlgto",
+      authDomain: "shopping-cart-d73e7.firebaseapp.com",
+      databaseURL: "https://shopping-cart-d73e7.firebaseio.com",
+      storageBucket: "shopping-cart-d73e7.appspot.com",
+    },
     modulePrefix: 'shopping-cart',
     environment: environment,
     baseURL: '/',

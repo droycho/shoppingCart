@@ -1,42 +1,37 @@
 { "items": [{
-    "title": "Test Item 1",
-    "image": "",
-    "description": "",
-    "cost": ""
+    "title": "Apple",
+    "image": "http://juliandance.org/wp-content/uploads/2016/01/RedApple.jpg",
+    "description": "Honey Crisp Apple",
+    "cost": "1.99"
   }, {
-    "title": "",
-    "image": "",
-    "description": "",
-    "cost": ""
+    "title": "Banana",
+    "image": "http://www.harisingh.com/Images/hsbanana3.jpg",
+    "description": "Ecuadorian Banana",
+    "cost": "4.99"
   }, {
-    "title": "",
-    "image": "",
-    "description": "",
-    "cost": ""
+    "title": "Orange",
+    "image": "http://efdreams.com/data_images/dreams/orange/orange-09.jpg",
+    "description": "Florida Orange",
+    "cost": "5.99"
   }, {
-    "title": "",
-    "image": "",
-    "description": "",
-    "cost": ""
+    "title": "Potato",
+    "image": "http://www.foodsubs.com/Photos/potatoes-whitelong.jpg",
+    "description": "Idaho Potato",
+    "cost": "1.99"
   }, {
-    "title": "",
-    "image": "",
-    "description": "",
-    "cost": ""
+    "title": "Milk",
+    "image": "https://s3.amazonaws.com/Wawa.com/img_dairy_dairymilk_n.png",
+    "description": "2% Non-fat",
+    "cost": "1.99"
   }, {
-    "title": "",
-    "image": "",
-    "description": "",
-    "cost": ""
+    "title": "Eggs",
+    "image": "https://authoritynutrition.com/wp-content/uploads/2013/01/egg.jpg",
+    "description": "Grade AA Organic Eggs",
+    "cost": "2.99"
   }, {
-    "title": "",
-    "image": "",
-    "description": "",
-    "cost": ""
-  }, {
-    "title": "",
-    "image": "",
-    "description": "",
-    "cost": ""
+    "title": "Bread",
+    "image": "http://thumbs.dreamstime.com/x/bread-cut-14027607.jpg",
+    "description": "Sliced White Bread",
+    "cost": "3.99"
   }]
 }

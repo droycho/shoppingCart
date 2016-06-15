@@ -1,0 +1,14 @@
+<h1>Welcome to the On-Line Convenience Store</h1>
+<h2>How to use this site:</h2>
+<ul>
+  <li>Search through the inventory for items you might want (click on items to see a discription), and add them to your shopping cart.</li>
+  <li>When you are ready, click the "Checkout" button to go to the checkout page.</li>
+  <li>If you are satisfied with your shopping list, click the "Confirm and Bag" button.</li>
+  <li>A representative at our store will bag your groceries and have them ready. All you need to do is come in , provide payment, and pick them up at your convenience!</li>
+</ul>
+
+<ul>
+  {{#each model as |item|}}
+    <li>{{item.title}}<br>${{item.cost}}</li>
+  {{/each}}
+</ul>
