@@ -9,6 +9,6 @@
 
 <ul>
   {{#each model as |item|}}
-    <li>{{item.title}}<br>${{item.cost}}</li>
+    {{item-tile item=item}}
   {{/each}}
 </ul>
