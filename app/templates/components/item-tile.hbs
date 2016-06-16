@@ -1,7 +1,9 @@
-<li>{{item.title}}<br>{{item.cost}}<br>
+<li>{{#link-to 'cart'}}{{item.title}}<br>{{item.cost}}{{/link-to}}<br>
 {{#if isImageShowing}}
   <p><img src={{item.image}} alt={{item.description}} {{action 'imageHide'}}><br>{{item.description}}</p>
 {{else}}
     <button {{action 'imageShow'}}>Show Image</button>
   {{/if}}
 </li>
+
+<button {{action 'addToCart' item}}>Add To Cart</button>

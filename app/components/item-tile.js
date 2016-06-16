@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  shoppingCart: Ember.inject.service(),
+
   isImageShowing: false,
 
   actions: {
@@ -9,6 +11,12 @@ export default Ember.Component.extend({
     },
     imageHide: function() {
       this.set('isImageShowing', false);
+    },
+    addToCart(item) {
+      this.get('shoppingCart').add(item);
+    },
+    removeFromCart(item) {
+      this.get('shoppingCart').remove(item);
     }
   }
 });
