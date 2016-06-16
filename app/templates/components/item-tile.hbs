@@ -1,6 +1,6 @@
 <li>{{item.title}}<br>{{item.cost}}<br>
 {{#if isImageShowing}}
-  <p><img src={{item.image}} alt={{item.description}} {{action 'imageHide'}}></p>
+  <p><img src={{item.image}} alt={{item.description}} {{action 'imageHide'}}><br>{{item.description}}</p>
 {{else}}
     <button {{action 'imageShow'}}>Show Image</button>
   {{/if}}
