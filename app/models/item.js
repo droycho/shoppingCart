@@ -1,10 +1,8 @@
 import DS from 'ember-data';
-// import Ember from 'ember-data/models';
-// import attr from 'ember-data/attr';
-// import { belongsTo, hasMany } from 'ember-data/relationships';
+// import Ember from 'ember-data/models'; << may not need this line
 
 export default DS.Model.extend({
-  shoppingCart: Ember.inject.service(),
+  // shoppingCart: Ember.inject.service(), << may not need this line
 
   title: DS.attr(),
   image: DS.attr(),
